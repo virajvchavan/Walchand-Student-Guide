@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="view">#406a1b9a</color>
+    <color name="header_colour">#6a1b9a</color>
+    <color name="background">#ede7f6</color>
+    <color name="small_hrader">#6a1b9a</color>
+</resources>

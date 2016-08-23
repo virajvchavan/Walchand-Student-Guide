@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+   >
+
+    <LinearLayout
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/college"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="80dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#2ecc71"
+                    android:onClick="aboutwce"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About WCE"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"
+
+                    android:background="#78000000"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:paddingTop="40dp"
+
+                    android:src="@drawable/people"
+                    android:paddingBottom="80dp"
+                    android:background="#e74c3c"
+                    android:onClick="about_departments"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Departments"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#78000000"
+                    android:textColor="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                   />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/sports"
+                    android:paddingBottom="80dp"
+                    android:paddingTop="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#9b59b6"
+                    android:onClick="facilities"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Facilities"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:background="#78000000"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@android:color/white"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/clubs"
+                    android:paddingBottom="80dp"
+                    android:layout_marginRight="2dp"
+                    android:paddingTop="40dp"
+                    android:background="#3498db" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clubs"
+                    android:padding="10dp"
+                    android:background="#78000000"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/events"
+                    android:paddingBottom="80dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:paddingTop="40dp"
+                    android:background="#f1c40f" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Events"
+                    android:padding="10dp"
+                    android:background="#78000000"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/mark"
+                    android:paddingBottom="80dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingTop="40dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#7f8c8d" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CPI Calculator"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:background="#78000000"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:paddingTop="40dp"
+                    android:src="@drawable/web"
+                    android:paddingBottom="80dp"
+                   android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#2ecc71"
+                    android:onClick="collegeweb"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="College Website"
+                    android:background="#78000000"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:textColor="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/moodle"
+                    android:layout_marginTop="2dp"
+                    android:paddingBottom="80dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="2dp"
+                    android:paddingTop="40dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#e74c3c"
+                    android:visibility="visible"
+                    android:onClick="moodle"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moodle"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginRight="2dp"
+                    android:background="#78000000"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.dell.fp1.MainActivity"
+        tools:showIn="@layout/app_bar_for_all_second_pages"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/image_2_dp"
+            android:layout_marginTop="45dp"
+            android:outlineProvider="none"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mess_dp"/>
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:clickable="true"
+            android:onClick="clicked_on_item_1"
+            android:id="@+id/item_1"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="J  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_1"
+                />
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jain Mess"
+
+                    android:layout_marginTop="10dp"
+                    android:typeface="sans"
+                    android:textSize="16sp"
+                    android:id="@+id/text_2_1"/>
+
+                <TextView
+                    android:id="@+id/content_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/jain_mess_content"
+
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_2"
+            android:onClick="clicked_on_item_2">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="P  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_2"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Potoba Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_2"/>
+
+                <TextView
+                    android:id="@+id/content_2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/potoba_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_3"
+            android:onClick="clicked_on_item_3">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="Y  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_3"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Yes Sir Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_3"/>
+
+                <TextView
+                    android:id="@+id/content_2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/yes_sir_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_4"
+            android:onClick="clicked_on_item_4">
+
+            <TextView
+
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="A  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_4"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Agatya Bhojanalaya"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_4"/>
+
+                <TextView
+                    android:id="@+id/content_2_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/agatya_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_5"
+            android:onClick="clicked_on_item_5">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="B  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_5"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Balaji Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_5"/>
+
+                <TextView
+                    android:id="@+id/content_2_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/balaji_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_6"
+            android:onClick="clicked_on_item_6">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="A  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_6"
+                />
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ashirwad Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_6"/>
+
+                <TextView
+                    android:id="@+id/content_2_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/ashirvad_mess_content"
+
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_7"
+            android:onClick="clicked_on_item_7">
+
+            <TextView
+
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="C  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_7"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chintamani Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_7"/>
+
+                <TextView
+                    android:id="@+id/content_2_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/chintamani_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_8"
+            android:onClick="clicked_on_item_8">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="G  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_8"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ganesh Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_8"/>
+
+                <TextView
+                    android:id="@+id/content_2_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/ganesh_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_9"
+            android:onClick="clicked_on_item_9">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="K  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_9"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kolape Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_9"/>
+
+                <TextView
+                    android:id="@+id/content_2_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/kolape_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_10"
+            android:onClick="clicked_on_item_10">
+
+            <TextView
+
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="S  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_10"
+                />
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sai Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_10"/>
+
+                <TextView
+                    android:id="@+id/content_2_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/sai_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_11"
+            android:onClick="clicked_on_item_11">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="M  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+                android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_11"
+                />
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mavshi Mess"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_11"/>
+
+                <TextView
+                    android:id="@+id/content_2_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/mavshi_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="#fdfdfd"
+            android:layout_marginBottom="1.23dp"
+            android:id="@+id/item_12"
+            android:onClick="clicked_on_item_12">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_height="55dp"
+                android:layout_width="55dp"
+                android:text="S  "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="@drawable/bg_red"
+                android:layout_margin="15dp"
+            android:paddingStart="12dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="12dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/logo_2_12"
+                />
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="vertical"
+                android:paddingLeft="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sachin Bhojanalaya"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/text_2_12"/>
+
+                <TextView
+                    android:id="@+id/content_2_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/sachin_mess_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

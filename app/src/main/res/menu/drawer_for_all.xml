@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_colleges"
+            android:icon="@drawable/college"
+            android:title="Our College" />
+        <item
+            android:id="@+id/nav_mess"
+            android:icon="@drawable/mess"
+            android:title="Mess" />
+        <item
+            android:id="@+id/nav_banks"
+            android:icon="@drawable/bank"
+            android:title="Banks" />
+        <item
+            android:id="@+id/nav_atms"
+            android:icon="@drawable/atm"
+            android:title="ATMs" />
+        <item
+            android:id="@+id/nav_hospitals"
+            android:icon="@drawable/medical"
+            android:title="Hospitals" />
+        <item
+            android:id="@+id/nav_medicals"
+            android:icon="@drawable/medical_store"
+            android:title="Medical Stores" />
+
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/restaurant"
+            android:title="Restaurants / Food" />
+        <item
+            android:id="@+id/hostels"
+            android:icon="@drawable/hostel"
+            android:title="Private Hostels" />
+        <item
+            android:id="@+id/shopping"
+            android:icon="@drawable/shopping"
+            android:title="Shopping" />
+        <item
+            android:id="@+id/travelling"
+            android:icon="@drawable/transport"
+            android:title="Travelling Agencies" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Login Page" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viraj.wsg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StartScreen"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".College"
+            android:label="Our College"
+            android:launchMode="singleTask"
+            android:parentActivityName=".StartScreen" />
+        <activity
+            android:name=".Mess"
+            android:label="@string/title_activity_mess"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Banks"
+            android:label="@string/title_activity_banks"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ATM"
+            android:label="@string/title_activity_atm"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hospitals"
+            android:label="@string/title_activity_hospitals"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MedicalStore"
+            android:label="@string/title_activity_medical_store"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Restaurants"
+            android:label="@string/title_activity_restaurants"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrivateHostels"
+            android:label="@string/title_activity_private_hostels"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shopping"
+            android:label="@string/title_activity_shopping"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Travelling"
+            android:label="@string/title_activity_travelling"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JainMess"
+            android:label="@string/title_activity_jain_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PotobaMess"
+            android:label="@string/title_activity_potoba_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YesSirMess"
+            android:label="@string/title_activity_yes_sir_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgatyaBhojanalay"
+            android:label="@string/title_activity_agatya_bhojanalay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BalajiMess"
+            android:label="@string/title_activity_balaji_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AshirwadMess"
+            android:label="@string/title_activity_ashirwad_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChintamaniMess"
+            android:label="@string/title_activity_chintamani_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GaneshMess"
+            android:label="@string/title_activity_ganesh_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LaxmiMess"
+            android:label="@string/title_activity_laxmi_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KolapeMess"
+            android:label="@string/title_activity_kolape_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaiMess"
+            android:label="@string/title_activity_sai_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MavshiMess"
+            android:label="@string/title_activity_mavshi_mess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SachinBhojanalay"
+            android:label="@string/title_activity_sachin_bhojanalay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dominos_Food"
+            android:label="@string/title_activity_dominos__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rahmatulla_Food"
+            android:label="@string/title_activity_rahmatulla__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MirchiFood"
+            android:label="@string/title_activity_mirchi_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GaneshNashta_Food"
+            android:label="@string/title_activity_ganesh_nashta__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RollsMania_Food"
+            android:label="@string/title_activity_rolls_mania__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManjuNashta_Food"
+            android:label="@string/title_activity_manju_nashta__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IceBerg_Food"
+            android:label="@string/title_activity_ice_berg__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SafaBakers_Food"
+            android:label="@string/title_activity_safa_bakers__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CCD_Food"
+            android:label="@string/title_activity_ccd__food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaiPrakash_Hotel"
+            android:label="@string/title_activity_pai_prakash__hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".About_wce"
+            android:label="@string/title_about_wce"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".facilities"
+            android:label="@string/title_facilities">
+        </activity>
+        <activity android:name=".about_departments"
+            android:label="@string/title_about_depatrments">
+        </activity>
+    </application>
+
+</manifest>

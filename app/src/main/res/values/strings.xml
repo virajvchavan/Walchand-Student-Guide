@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">WSG</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_college">College</string>
+    <string name="title_activity_mess">Mess</string>
+    <string name="aboutwce1">Walchand College of Engineering is situated midway between Sangli and Miraj cities at Vishrambag, Sangli. The WCE campus is located on about 90 acres of land on southern side of Sangli – Miraj road.
+    </string>
+    <string name="aboutwce2">In 1947, the college made a modest beginning as New Engineering College, with a single program leading to B.E. (Civil) degree. In the year 1955, the College was renamed as Walchand College of Engineering as part of the new arrangements and pursuant to the Rehabilitation and Development Program mainly funded by Seth Walchand Hirachand Memorial Trust and the Government. The Government appointed an Ad Hoc Committee for conducting the college from May 1955, later replaced by the Administrative Council in 1956. The Ad Hoc Committee added two more degree programs in B.E. (Mechanical) and B.E. (Electrical) in 1955 with the intake of 20 each. Three Diploma programs also started in 1955 – Civil (40 intake), Mechanical (20) and Electrical (20). </string>
+    <string name="aboutwce3">Post Graduate programs in Civil, Mechanical and Electrical Engineering and Diploma program in Industrial Electronics were introduced in 1971. In 1986 the UG and PG programs in Electronics Engineering and UG program in Computer Science and Engineering were introduced.</string>
+    <string name="aboutwce4">PG program in CSE was introduced in 1997. In 2001, added B.E. program in Information Technology with an intake of 60 students. An additional intake of 30 students was also sanctioned for Computer Science and Engineering program, resulting in total intake of 390 students for all branches at UG level and 106 at PG level. As part of strategic planning, PG section is being strengthened and PG intake has now steadily risen to 240 across 10 programs. The College has a QIP scheme for full-time doctoral programs and also offers Ph. D. programs of Shivaji University in various branches of engineering. </string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_banks">Banks</string>
+    <string name="title_activity_atm">ATM</string>
+    <string name="title_activity_hospitals">Hospitals</string>
+    <string name="title_activity_medical_store">MedicalStore</string>
+    <string name="title_activity_restaurants">Restaurants</string>
+    <string name="title_activity_hotels">Hotels</string>
+    <string name="title_activity_private_hostels">PrivateHostels</string>
+    <string name="title_activity_shopping">Shopping</string>
+    <string name="title_activity_travelling">Travelling</string>
+    <string name="title_about_depatrments">About Departments</string>
+    <string name="title_about_wce">About Wce</string>
+    <string name="title_facilities">Facilities</string>
+
+
+    <string name="title_activity_jain_mess">Jain Mess</string>
+    <string name="title_activity_yes_sir_mess">Yes Sir Mess</string>
+    <string name="title_activity_agatya_bhojanalay">Agatya Mess</string>
+    <string name="title_activity_balaji_mess">Balaji Mess</string>
+    <string name="title_activity_ashirwad_mess">Ashirwad Mess</string>
+
+    <string name="title_activity_chintamani_mess">Chintamani Mess</string>
+    <string name="title_activity_ganesh_mess">Ganesh Mess</string>
+
+    <string name="title_activity_laxmi_mess">Laxmi Mess</string>
+    <string name="title_activity_kolape_mess">Kolape Mess</string>
+    <string name="title_activity_sai_mess">Sai Mess</string>
+    <string name="title_activity_mavshi_mess">Mavshi Mess</string>
+
+
+    <string name="title_activity_sachin_bhojanalay">Sachin Mess</string>
+    <string name="title_activity_c__r__deshpande__hospital">C. R. Dehpande Hospital</string>
+
+    <string name="title_activity_joshi_hospital">Joshi Hospital</string>
+    <string name="title_activity_anuradha_hospital">Anuradha Hospital</string>
+    <string name="title_activity_magdum_hospital">Magdum Hospital</string>
+    <string name="title_activity_magdum_dental_hospital">Magdum Dental Hospital</string>
+    <string name="title_activity_dominos__food">Dominos Pizza</string>
+    <string name="title_activity_rahmatulla__food">Rahmatulla Restaurant</string>
+
+
+    <string name="title_activity_mirchi_food">Mirchi Food Mall</string>
+    <string name="title_activity_ganesh_nashta__food">Ganesh Nashta Center</string>
+    <string name="title_activity_rolls_mania__food">Rolls Mania</string>
+    <string name="title_activity_manju_nashta__food">Manju Nashta Center</string>
+    <string name="title_activity_ice_berg__food">Ice Berg Icecream</string>
+
+    <string name="title_activity_safa_bakers__food">Safa Bakers</string>
+    <string name="title_activity_ccd__food">Cafe Cofee Day</string>
+    <string name="title_activity_icon_inn__hotel">Hotel Icon Inn</string>
+    <string name="title_activity_great_maratha__hotel">The Great Maratha</string>
+    <string name="title_activity_pai_prakash__hotel">Hotel Pai Prakash</string>
+
+    <string name="title_activity_ambassador__hotel">Hotel Ambassador</string>
+    <string name="title_activity_seoson4__hotel">Hotel Season 4</string>
+    <string name="title_activity_sai_prarthana__hotel">Hotel Sai Prarthana</string>
+    <string name="title_activity_surya__hotel">Hotel Surya</string>
+    <string name="title_activity_mali_block__hostel">Mali Block</string>
+
+    <string name="title_activity_chavan_building__hostel">Chavan Building</string>
+    <string name="title_activity_shelar_block__hostel">Shelar Block</string>
+
+    <string name="title_activity_koshti_block__hostel">Koshti Block</string>
+    <string name="title_activity_danane_bolck__hostel">Danane Block</string>
+
+    <string name="title_activity_nspatil__hostel">Dr. N. S. Patil Hospital</string>
+    <string name="title_activity_gmjoshi__hostel">Dr. G. M. Joshi Hospital</string>
+    <string name="title_activity_dmart__shopping">D Mart</string>
+    <string name="title_activity_sfcmall__shopping">SFC Mega Mall</string>
+
+    <string name="title_activity_tamhankar__shopping">G. R. Tamhankar Shopee</string>
+    <string name="title_activity_sankalp_book__shopping">Sankalp Book Center</string>
+    <string name="title_activity_mirji_book__shopping">Mirji Book Center</string>
+
+    <string name="title_activity_ultimate_collection__shopping">Ultimate Collection</string>
+    <string name="title_activity_celebrations_gift__shopping">Celebrations Gift N Greetings</string>
+
+
+    <string name="title_activity_sachin_mess">JainMess</string>
+    <string name="title_activity_potoba_mess">PotobaMess</string>
+
+    <string name="ashirwad_add">Will add it when I know it!</string>
+    <string name="ashirwad_phone">942000727</string>
+    <string name="ashirwad_fees">1700 Rs</string>
+    <string name="ashirwad_cat">Non-Vegetarian.</string>
+
+    <string name="agatya_add">Above Dandekar Mall, Near back gate</string>
+    <string name="agatya_phone">02336959952</string>
+    <string name="agatya_fees">1800 Rs</string>
+    <string name="agatya_cat">Pure-Vegetarian</string>
+
+    <string name="ganeshmess_add">Near Back gate of Willingdon College, Jaihind Colony.</string>
+    <string name="ganeshmess_phone">9881468168</string>
+    <string name="ganeshmess_fees">1750 Rs</string>
+    <string name="ganeshmess_cat">Non-Vegetarian.</string>
+
+    <string name="sachin_add">Near Dandekar Mall, Near the Back Gate</string>
+    <string name="sachin_phone">9561399904</string>
+    <string name="sachin_fees">1800 Rs</string>
+    <string name="sachin_cat">Vegetarian</string>
+
+    <string name="mavshi_add">Behind the new School Building</string>
+    <string name="mavshi_phone">9623658946</string>
+    <string name="mavshi_fees">1700 Rs</string>
+    <string name="mavshi_cat">Non-Vegetarian</string>
+
+    <string name="chintamani_add">Will add it when I know it!</string>
+    <string name="chintamani_phone">8605241115</string>
+    <string name="chintamano_fees">1800 Rs</string>
+    <string name="chintamani_cat">Non-Vegetarian</string>
+
+    <string name="sai_add">Besides Sai Zerox, At the Back Gate</string>
+    <string name="sai_phone">00000000</string>
+    <string name="sai_fees">1700 Rs</string>
+    <string name="sai_cat">Non-Vegetarian</string>
+
+
+    <string name="laxmi_add">Near Sankalp Book Shop, Underground</string>
+    <string name="laxmi_phone">8308456349</string>
+    <string name="laxmi_fees">1750 Rs</string>
+    <string name="laxmi_cat">Non-Vegetarian</string>
+
+    <string name="yessir_add">Near Back Gate</string>
+    <string name="yessir_phone">8308456349</string>
+    <string name="yessir_fees">1750 Rs</string>
+    <string name="yessir_cat">Non-Vegetarian</string>
+
+    <string name="potoba_add">In front of Bank Of India</string>
+    <string name="potoba_phone">8308456349</string>
+    <string name="potoba_fees">1750 Rs</string>
+    <string name="potoba_cat">Vegetarian</string>
+
+    <string name="kolape_add">Will let you know when I know it.</string>
+    <string name="kolape_phone">1234567891</string>
+    <string name="kolape_fees">1750 Rs</string>
+    <string name="kolape_cat">Non-Vegetarian</string>
+
+
+    <string name="balaji_add">Will let you know when I know it.</string>
+    <string name="balaji_phone">1234567891</string>
+    <string name="balaji_fees">1750 Rs</string>
+    <string name="balaji_cat">Non-Vegetarian</string>
+
+    <string name="jain_add">Back Gate, Near Rolls Mania, 100 ft. Road</string>
+    <string name="jain_phone">9049511613</string>
+    <string name="jain_fees">1800 Rs</string>
+    <string name="jain_cat">Pure Vegetarian</string>
+    <string name="jain_eat">This is just some text to show so that I can see it and see that how it looks like</string>
+
+    <string name="ganesh_add">Ganesh Nashta Centre, Vishrambag Chowk opposite Police Station, Sangli</string>
+    <string name="ganesh_addmap">Ganesh Nashta Centre,sangli</string>
+    <string name="ganesh_phone">(9552517281)</string>
+
+
+    <string name="sarover_add">Hotel Sarover, Shri Complex, 100 ft Road,Vishrambag, Sangli</string>
+    <string name="sarover_addmap">Hotel Sarover, Sangli</string>
+    <string name="sarover_phone">(9403007650)</string>
+
+    <string name="ice_add">Ice Berg, Om Arcade, Behind Hotel Pai Prakash, Sangli</string>
+    <string name="ice_addmap">Ice Berg, Sangli</string>
+    <string name="ice_phone">(8412989088)</string>
+
+    <string name="mirchi_add">Mirchi Food Mall, Sangli-Miraj road, Vantmure Corner, Miraj, Sangli</string>
+    <string name="mirchi_addmap">Mirchi Food Mall,Sangli</string>
+    <string name="mirchi_phone">(9422613780)</string>
+
+    <string name="dominos_add">Dominos Pizza, Venkatesh Assets Building, Opposite Emmanuel Church, Sangli-Miraj road, Sangli</string>
+    <string name="dominos_addmap">Dominos Pizza, Sangli</string>
+    <string name="dominos_phone">(2332321666)</string>
+
+    <string name="rahamtullah_add">Hotel Rahamtullah, Near Gandhi chowk Opposite Arafa Hotel, Miraj, Sangli</string>
+    <string name="rahamtullah_addmap">rahamtullah hotel,sangli</string>
+    <string name="rahamtullah_phone">(02332228195)</string>
+
+    <string name="rolls_add">Rolls Mania, 100 ft. Road, Near Back Gate, Sangli</string>
+    <string name="rolls_phone">000000000</string>
+
+    <string name="manju_add">Manju Nashta Centre, Near front gate, In front of Mavshi mess, Sangli-Miraj Road. </string>
+    <string name="manju_phone">0000000000</string>
+
+    <string name="safa_add">Safa Bakers, Near Back Gate, Sangli</string>
+    <string name="safa_phone">000000000</string>
+
+    <string name="ccd_addr">CCD ,Gadiwala Palza, Sangli Miraj Road Walneswadi Water Tank, Sangli, Maharashtra 416415</string>
+    <string name="ccd_addr_phone">(09371048473)</string>
+
+    <string name="dmart_add">D-Mart, 100 Feet Rd, Dattanagar, Sangli, Maharashtra 416416</string>
+    <string name="dmart_phone">000000000</string>
+
+    <string name="sfc_add">SFC Megaa Mall, Azad Chowk Sangli, Sangli  Azad Chowk Near Pratap Movie Theatre </string>
+    <string name="sfc_phone">233-2622010</string>
+
+    <string name="celebration_add">Celebration Gift N Greetings, K T Hights, M G Road, Sangli HO, Sangli -, Below Relience World</string>
+    <string name="celebration_phone">9890850166</string>
+
+    <string name="ultimate_add">Ultimate Collection, Vishrambag, Sangli -  Kore Corner Near Wellington College</string>
+    <string name="ultimate_phone">9823369585</string>
+
+    <string name="sankalp_add">Sanklap book stall,Silver oak park, Spruti chowk rd, Vishrambag, Sangli - 416415,</string>
+    <string name="sankalp_phone">9823619732</string>
+
+    <string name="mirji_add">Mirji Book stall. Silver oak apartment, MSEB road, Vishrambag, Sangli</string>
+    <string name="mirji_phone">9922631192</string>
+
+    <string name="tamhankar_add">G R Tamhankar, Chaitanya Bhavan, Sangli HO, Sangli - Saraf Naka</string>
+    <string name="tamhankar_phone">9422041000</string>
+
+
+    <string name="dhanane_add">Jai Hind colony ,Vishrambag, Sangli </string>
+    <string name="dhanane_phone">9422517116</string>
+    <string name="dhanane_fee">0000 Rs</string>
+
+    <string name="patil_add">Government colony,Vishrambag, Sangli</string>
+    <string name="patil_phone">9325255353</string>
+    <string name="patil_fee">00000 Rs</string>
+
+    <string name="joshi_add">Ambuj Bungalow Tanwade Plot Vishrambag, Sangli</string>
+    <string name="joshi_phone">9422517116</string>
+    <string name="joshi_fee">0000000 Rs</string>
+
+    <string name="mali_add">Mahalaxmi Chowk, Vishrambag, Sangli</string>
+    <string name="mali_phone">9420760196</string>
+    <string name="mali_fee">000 Rs</string>
+
+    <string name="chavan_add">Near Dandekar Mall,  Vishrambag, Sangli.</string>
+    <string name="chavan_phone">9766129123</string>
+    <string name="chavan_fee">0000 Rs</string>
+
+    <string name="shelar_add">Near Back Gate WCE, Sangli</string>
+    <string name="shelar_phone">7776991504</string>
+    <string name="shelar_fee">0000 Rs</string>
+
+    <string name="koshti_add">Jai Hind colony ,Vishrambag, Sangli </string>
+    <string name="koshti_phone">9371137771</string>
+    <string name="koshti_fee">00000 Rs</string>
+
+
+    <string name="iconinn_add">Icon Inn, Vishrambag, Sangli</string>
+    <string name="iconinn_phone">(023367533)</string>
+
+    <string name="greatmaratha_add">Great Maratha Hotel, Near Market Yard, Vishrambag Sangli</string>
+    <string name="gratemaratha_addformap">hotel great maratha</string>
+    <string name="greatmaratha_phone">(2332327222)</string>
+
+    <string name="paiprakash_add">Hotel Pai Prakash, Vishrambag Chowk, Sangli</string>
+    <string name="paiprakash_phone">(2332300222)</string>
+
+    <string name="ambassador_add">Hotel Ambassador, Vishrambag, Sangli</string>
+    <string name="ambassasor_phone">(2332672333)</string>
+
+    <string name="season4_add">Hotel Season 4, Vishrambag, Sangli</string>
+    <string name="season4_phone">(2332671517)</string>
+
+    <string name="saiprarthana_add">Hotel Sai Prarthana, Vishrambag, Sangli</string>
+    <string name="saiprarthana_phone">(2332301787)</string>
+
+    <string name="surya_add">Hotel Surya, vishrambag, Sangli</string>
+    <string name="surya_phone">(2332301841)</string>
+
+    <string name="magdumdental_add">Maruti Palace Building, Opposite to Iceberg, Vishrambag, Sangli.</string>
+    <string name="magdumdental_phone">02332302700  8275266062</string>
+
+    <string name="anuradhaclinic_add">100 Ft. Road, Near Walchand College Of Engineering</string>
+    <string name="anuradhaclinic_phone">0233 2301939    0233 2301058</string>
+
+    <string name="joshiclinic_add">Oppo:Hanuman Hotel, Vishrambag Chowk,Sangli.</string>
+    <string name="joshiclinic_phone">0233 2300162</string>
+
+    <string name="deshpandeclinic_add">Near Dandekar Mall,  Vishrambag, Sangli.</string>
+    <string name="deshpandeclinic_phone">0000000000</string>
+
+    <string name="magdumhospital_add">Backside of Ganesh Nashta Center, Vishrambag,Sangli.</string>
+    <string name="magdumhospital_phone">Non-Vegetarian</string>
+
+    <string name="jain_mess_content">Vegetarian</string>
+    <string name="potoba_mess_content">Vegetarian</string>
+    <string name="yes_sir_mess_content">Vegetarian</string>
+    <string name="agatya_mess_content">Vegetarian</string>
+    <string name="balaji_mess_content">Non-Vegetarian</string>
+    <string name="ashirvad_mess_content">Non-Vegetarian</string>
+    <string name="chintamani_mess_content">Non-Vegetarian</string>
+    <string name="ganesh_mess_content">Non-Vegetarian</string>
+    <string name="kolape_mess_content">Non-Vegetarian</string>
+    <string name="sai_mess_content">Non-Vegetarian</string>
+    <string name="mavshi_mess_content">Non-Vegetarian</string>
+    <string name="sachin_mess_content">Vegetarian</string>
+
+
+    <string name="rahmatulla_content">Vegetarian</string>
+    <string name="dominos_content">Vegetarian</string>
+    <string name="mirchi_food_content">Vegetarian</string>
+    <string name="ganesh_nashta_content">Vegetarian</string>
+    <string name="manju_nashta_content">Vegetarian</string>
+    <string name="ice_berg_content">Vegetarian</string>
+    <string name="safa_bakers_content">Vegetarian</string>
+    <string name="cafe_cofee_day_content">Vegetarian</string>
+    <string name="safa_bakery_content">Vegetarian</string>
+    <string name="rolls_mania_conent">Vegetarian</string>
+    <string name="pai_prakash_contnt">Vegetarian</string>
+
+    <string name="general_query">"select * from user_info;";"</string>
+    <string name="website">"www.walchandsangli.ac.in/"</string>
+
+
+    <string name="civil">The department of Civil Engineering is the oldest department of the college way back in 1947. Prof V.D.Salkar is HOD of Civil Engineering department. The department has been engaged in various activities involving industry-institute interaction, research and development, updating curriculum, improving teaching/learning process, development of students and service to society etc. Also every year departmental club CESA ( Civil Engineering Students Association ) organizes a national level technical fest named AAKAR.
+    </string>
+    <string name="mech">The department of Mechanical was established in 1995.Dr. B. S. Gavali is HOD of the department. Prof Dr. U. A. Dabade and Mr. M. M. Khot received Young Scientist Award under SERC Fast Track from DST, India.</string>
+    <string name="mech2">Various labs and equipments:\n1. Advanced Manufacturing Laboratory\n2. Refrigeration And Air Condition Lab\n3. Heat Transfer Laboratory\n4. IC Engine Laboratory
+</string>
+<string name="cse">CSE Department of WCE,Sangli was established in 1986.Dr.B.F.Momin is Head of Department.Association of Computer Science and Engineering (ACSES) is departmental club .
+    \n\nVarious labs in the departments and major equipments :\n1)Advanced Software Engineering Laboratory\n2)Database Engineering Laboratory\n3)Research Laboratory</string>
+    <string name="it">Information Technology Department was established in year 2001. Dr.Mrs.S.P.Sonawane is HOD . Department has highly Equipped Labs and other facilities. Namely It has High Performance Lab,Microprocessor Lab, Programming Lab etc.. Only students of IT department are allowed to access any of the facilities of the department. Programming Lab can be accessed 24*7. Department focuses on Industry sponsored projects.
+</string>
+    <string name="electronics">The Department of Electronics Engineering started way back in 1986.
+The department is headed by prominent personalities like Prof.V.B.Dharmadhikari(HOD),Prof.Dr.Mrs.S.S.Deshpande,Mr.S.N.Kore(Dean Academics).
+Department has well qualified faculty and support staff.Departmental club ELESA work towards improving skills of students through activities like Electrovert.
+It is a State Level event.</string>
+    <string name="training_web">http://www.walchandsangli.ac.in/trainingandplacement/trainingandplacement.asp</string>
+    <string name="agc">It is one of the largest libraries in the state. It houses an enormous array of reference books, international and national journals, research papers, textbooks and novels. It also contains a digital library consisting of thousands of renowned eBooks and journals, which are available for the students round the clock.</string>
+    <string name="readinghall"> It comprises of two sections - one for boys and girls each. It provides a quaint environment for the students to aid studies.</string>
+    <string name="ccf">It is a computer lab which consists of the latest computers and software. It is available for the students of all departments. This is the Place where your problems related Wi-Fi connection will be entertained.</string>
+    <string name="hostel">The hostels for boys and girls are in separate areas. They are quite spacious and has every necessary facility. Separate Wi-Fi connections are available. Hostel life  is the best part of college life</string>
+    <string name="gym">It houses of various equipment to help the students in fitness. We can access it in the early Morning hours and same is in the evening hours. Vartak hall has Badminton courts and huge playground is available for various sports.</string>
+    <string name="tilakhall">It is a multipurpose hall .All the occasions are celebrated in Tilak hall. Several other things such as seminars and workshops are arranged here. </string>
+    <string name="shilpchintamani">It is a holy place at WCE located near study room. Every day starts with Ganpati blessings which prospers and freshens the environment</string>
+    <string name="lipton">These places provides you healthy and nutritious food in a clean and tidy environment</string>
+
+    <string name="q2">Q.2) Can one change the branch?\nAns: Yes one can change the branch after completion of First Year of Degree Course.
+All the students are notified to apply. Score of First Year is considered for this. Seats are allotted on Merit Basis.</string>
+    <string name="q3">Q.3) When will one get ID card?\nAns: It is the responsibility of every student to get the college card from stores and signed it by respective authorities as soon as the college starts.</string>
+    <string name="q4">Q.4) How to get Wi-Fi Id and password?\nAns: Students need to fill the form available in the college Xerox center and submit it to the control room and thus obtain the password.</string>
+<string name="q5">Q.5) What is the policy of Book Bank?\nAns: Books will be provided to specific students on Merit basis. Merit Score of DTE is considered for this. Detailed Information will be displayed by concern.
+</string>
+    <string name="q6">Q.6) What are the timings to access study room?\nAns: College study room is well furnished and is strictly divided into two sections differently for boys and girls. Boys have the permission for 24 hours of the day while Girls are allowed till 10.00 pm.
+</string>
+    <string name="q8">Q.8) Does attendance matter for examination?\nAns: Yes. 75% attendance is compulsory for every student in individual subject else He/She is claimed as defaulter in particular subject. Several other rules regarding this are notified time to time by Examination Department.
+</string>
+
+
+</resources>
